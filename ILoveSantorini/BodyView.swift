@@ -40,7 +40,10 @@ struct BodyView: View {
             .cornerRadius(20)
             .padding(20)
             Divider()
-                .foregroundColor(color)
+                .frame(height: 2)
+                .overlay(color)
+                .padding(EdgeInsets(top: 0, leading: 55, bottom: 0, trailing: 55))
+            Spacer()
         }
     }
 }
