@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct HeaderView: View {
-    
-    let color: Color = Color(red: 12 / 255, green: 95 / 255, blue: 175 / 255)
-    
+            
     var body: some View {
         VStack {
             Image("bg")
