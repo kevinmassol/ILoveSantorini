@@ -26,6 +26,7 @@ struct HeaderView: View {
                     .resizable()
                     .frame(width: 75, height: 75)
             }
+            .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 15))
             .offset(y: -45)
             Divider()
                 .frame(height: 2)
