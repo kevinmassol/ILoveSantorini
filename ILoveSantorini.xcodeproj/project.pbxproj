@@ -11,6 +11,7 @@
 		0A1D4C84299695B9003D3CEE /* RoundedRectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D4C83299695B9003D3CEE /* RoundedRectangleImage.swift */; };
 		0A1D4C862996978C003D3CEE /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D4C852996978C003D3CEE /* BodyView.swift */; };
 		0A1D4C8C299A3B90003D3CEE /* FontColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D4C8B299A3B90003D3CEE /* FontColor.swift */; };
+		0A1D4C8E299A41C0003D3CEE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D4C8D299A41C0003D3CEE /* FooterView.swift */; };
 		0A76988F2993AF0B0085549D /* ILoveSantoriniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76988E2993AF0B0085549D /* ILoveSantoriniApp.swift */; };
 		0A7698912993AF0B0085549D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7698902993AF0B0085549D /* HomeView.swift */; };
 		0A7698932993AF0C0085549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7698922993AF0C0085549D /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		0A1D4C83299695B9003D3CEE /* RoundedRectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleImage.swift; sourceTree = "<group>"; };
 		0A1D4C852996978C003D3CEE /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
 		0A1D4C8B299A3B90003D3CEE /* FontColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontColor.swift; sourceTree = "<group>"; };
+		0A1D4C8D299A41C0003D3CEE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		0A76988B2993AF0B0085549D /* ILoveSantorini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILoveSantorini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A76988E2993AF0B0085549D /* ILoveSantoriniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILoveSantoriniApp.swift; sourceTree = "<group>"; };
 		0A7698902993AF0B0085549D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -62,8 +64,9 @@
 				0A76988E2993AF0B0085549D /* ILoveSantoriniApp.swift */,
 				0A7698902993AF0B0085549D /* HomeView.swift */,
 				0A1D4C7F2993B8DC003D3CEE /* HeaderView.swift */,
-				0A1D4C83299695B9003D3CEE /* RoundedRectangleImage.swift */,
 				0A1D4C852996978C003D3CEE /* BodyView.swift */,
+				0A1D4C83299695B9003D3CEE /* RoundedRectangleImage.swift */,
+				0A1D4C8D299A41C0003D3CEE /* FooterView.swift */,
 				0A1D4C8B299A3B90003D3CEE /* FontColor.swift */,
 				0A7698922993AF0C0085549D /* Assets.xcassets */,
 				0A7698942993AF0C0085549D /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7698912993AF0B0085549D /* HomeView.swift in Sources */,
+				0A1D4C8E299A41C0003D3CEE /* FooterView.swift in Sources */,
 				0A1D4C802993B8DC003D3CEE /* HeaderView.swift in Sources */,
 				0A1D4C8C299A3B90003D3CEE /* FontColor.swift in Sources */,
 				0A1D4C862996978C003D3CEE /* BodyView.swift in Sources */,
