@@ -16,11 +16,11 @@ struct BodyView: View {
             HStack {
                 Text("Avis:")
                     .italic()
-                    .foregroundColor(color)
+                    .foregroundColor(Color("blue"))
                 ForEach(0..<5) { int in
                     let star = (int < 4) ? "star.fill" : "star"
                     Image(systemName: star)
-                        .foregroundColor(color)
+                        .foregroundColor(Color("blue"))
                 }
             }
             .padding()
@@ -33,7 +33,7 @@ struct BodyView: View {
             }
             ScrollView {
                 Text(text)
-                    .foregroundColor(color)
+                    .foregroundColor(Color("blue"))
                     .padding(10)
             }
             .background(.secondary)
@@ -41,7 +41,7 @@ struct BodyView: View {
             .padding(20)
             Divider()
                 .frame(height: 2)
-                .overlay(color)
+                .overlay(Color("blue"))
                 .padding(EdgeInsets(top: 0, leading: 55, bottom: 0, trailing: 55))
             Spacer()
         }

@@ -12,7 +12,7 @@ struct FooterView: View {
         HStack {
             Label("Je partage", systemImage: "square.and.arrow.up")
         }
-        .foregroundColor(color)
+        .foregroundColor(Color("blue"))
         .frame(height: 30)
     }
 }

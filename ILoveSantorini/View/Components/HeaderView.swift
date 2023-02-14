@@ -20,7 +20,7 @@ struct HeaderView: View {
                 Text("I 💙 Santorini")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .foregroundColor(color)
+                    .foregroundColor(Color("blue"))
                 Spacer()
                 Image("flag")
                     .resizable()
@@ -30,7 +30,7 @@ struct HeaderView: View {
             .offset(y: -45)
             Divider()
                 .frame(height: 2)
-                .overlay(color)
+                .overlay(Color("blue"))
                 .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 15))
             Spacer()
         }
